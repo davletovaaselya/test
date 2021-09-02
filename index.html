@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <script src="./app.js" defer></script>
+  </head>
+
+  <body>
+  <header class="header">
+    <div class="img" style='font-size:40px;'><img src="./img/free-icon-bobbin-527910.svg" alt="logo"></div>
+    <a href="index.html" class="title">Movie Night</a>
+    <form>
+      <input type="text" placeholder="Search 🔍 " class="input__item">
+    </form>
+  </header>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <img src="./img/photo5289734833775425458.jpg" alt="poster">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="./img/photo5289734833775425459.jpg" alt="poster">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="./img/photo5289734833775425460.jpg" alt="poster">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="./img/photo5289734833775425462.jpg" alt="poster">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="./img/photo5289734833775425463.jpg" alt="poster">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="./img/photo5289734833775425464.jpg" alt="poster">
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./img/photo5289734833775425465.jpg" alt="poster">
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./img/photo5289734833775425467.jpg" alt="poster">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="./img/photo5289734833775425468.jpg" alt="poster">
+  </div>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="container">
+      <div class="movies"></div>
+      <div class="information"></div>
+      <div class="buttons">
+        <button class="button1">Назад</button>
+        <button class="button2">Вперед</button></div>
+       </div>
+    </div>
+
+
+      <footer class="footer">
+      <ul>
+        <h5>Контакты</h5>
+          <li><a href="tel:+996550312312">Телефон</a></li>
+          <li><a href="https://www.instagram.com/ogogo_academy/">Инстаграм</a></li>
+          <li><a href="htts://wa.me/+996550312312">ВотсАп</a></li>
+          <li>Гит</li>
+          <li></li>
+        </ul>
+        <ul>
+          <h5>Создатели</h5>
+          <li>Аля</li>
+          <li>Байа</li>
+          <li>При поддержке "ОГОГО"</li>
+        </ul>
+        <ul>
+          <h5>Адрес</h5>
+          <li>Ибраимова 115</li>
+        </ul>
+      </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      let swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+         
+        },
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction:false
+        }
+      });
+
+    </script>
+  </body>
+</html>
